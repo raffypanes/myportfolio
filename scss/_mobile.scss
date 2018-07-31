@@ -10,7 +10,7 @@
 @include mediaLg {
   // extends to 3
   .projects {
-    grid-template-columns: repeat(43, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
