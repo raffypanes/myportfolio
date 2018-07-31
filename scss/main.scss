@@ -1,4 +1,6 @@
 @import 'config'; // import variables and mixins into partials to organise our scss
+@import 'menu';
+
 * {
   box-sizing: border-box;
 }
@@ -39,6 +41,7 @@ a {
 header {
   position: fixed;
   z-index: 2;
+  width: 100%;
 }
 
 .text-secondary {
