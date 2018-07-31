@@ -45,6 +45,17 @@
       height: 150px;
     }
   }
+
+  // stack about info into single column using grid
+  .about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
+    grid-template-columns: 1fr;
+  }
 }
 
 // for Smartphones
